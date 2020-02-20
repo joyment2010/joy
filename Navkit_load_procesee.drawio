@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-20T12:41:37.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="_zPfkSuOLtcrCvMNRJfI" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-20T12:44:20.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="bXB68yIvH6XNnMsZuTWK" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ITVbMP8zfWYvRuNHPqF-" name="Page-2">
-    <mxGraphModel dx="2703" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-0" />
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-1" parent="ZBBEk2cNsRWv8i3ho4RV-0" />
@@ -336,7 +336,7 @@
           <mxGeometry x="400" y="390" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-39" value="AutoSdkNavigationServiceJNI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
-          <mxGeometry x="827" y="360" width="163" height="170" as="geometry" />
+          <mxGeometry x="827" y="460" width="163" height="170" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-39">
           <mxGeometry x="76.5" y="70" width="10" height="10" as="geometry" />
@@ -412,7 +412,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-70" value="同上&lt;br&gt;action为AutoSdkManager中&amp;nbsp;phase 3时，setBarrierAction传入的 runnable对象" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-70" value="同上&lt;br&gt;action为AutoSdkManager中&amp;nbsp;phase 2时，setBarrierAction传入的 runnable对象" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
           <mxGeometry x="400" y="920" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
