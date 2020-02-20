@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-20T12:24:35.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="ZW974yC9FZVmLDWzPsEY" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-20T12:28:31.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="-XF7tO7z3hk4dB51NWm6" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ITVbMP8zfWYvRuNHPqF-" name="Page-2">
-    <mxGraphModel dx="1113" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-0" />
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-1" parent="ZBBEk2cNsRWv8i3ho4RV-0" />
@@ -233,7 +233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-10" value="InitializationProcedure" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
-          <mxGeometry x="320" y="50" width="120" height="420" as="geometry" />
+          <mxGeometry x="320" y="50" width="120" height="670" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-10">
           <mxGeometry x="56.25" y="150" width="7.5" height="80" as="geometry" />
@@ -265,6 +265,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-10">
+          <mxGeometry x="53" y="560" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-10">
+          <mxGeometry x="59" y="600" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-53" value="action.run()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-52" parent="H1Z_MDF-a9jx8XFVuI_Q-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="64" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="89" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-12" value="run" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.089;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.067;exitY=0.829;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-11" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-5">
           <mxGeometry x="0.0598" y="-19" relative="1" as="geometry">
             <mxPoint x="180" y="201" as="sourcePoint" />
@@ -289,8 +303,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-23" value="makeSdkWritableDir" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-22" parent="ZBBEk2cNsRWv8i3ho4RV-1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry y="-25" relative="1" as="geometry">
             <mxPoint x="590" y="325" as="sourcePoint" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-24" value="条件:&lt;br&gt;updateStorageFiles" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
@@ -345,6 +360,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="585" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-51" value="&lt;div&gt;parallelPhaseNotification.&lt;/div&gt;&lt;div&gt;signalPhaseComplete&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=-0.14;exitY=0.321;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-50" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-54" value="action为AutoSdkManager中&amp;nbsp;phase 1时，setBarrierAction传入的 runnable对象" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+          <mxGeometry x="400" y="660" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
