@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-20T09:22:14.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="ogzAtdEFxDZGE1Jy-EOB" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-20T09:32:35.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="igQj5G0ZTSjGVhbLmusp" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ITVbMP8zfWYvRuNHPqF-" name="Page-2">
-    <mxGraphModel dx="652" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="378" dy="185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-0" />
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-1" parent="ZBBEk2cNsRWv8i3ho4RV-0" />
@@ -210,10 +210,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-7" value="NavKitInitializationTask" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
-          <mxGeometry x="510" y="50" width="130" height="300" as="geometry" />
+          <mxGeometry x="510" y="50" width="130" height="360" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-7">
           <mxGeometry x="60" y="130" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-7">
+          <mxGeometry x="60" y="240" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-18" value="run" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-17" parent="H1Z_MDF-a9jx8XFVuI_Q-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="240" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-9" value="new" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-8" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-5">
           <mxGeometry x="0.6456" y="5" relative="1" as="geometry">
@@ -225,9 +233,22 @@
           <mxGeometry x="320" y="50" width="120" height="300" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-10">
-          <mxGeometry x="55" y="150" width="10" height="60" as="geometry" />
+          <mxGeometry x="56.25" y="150" width="7.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-12" value="run" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=-0.233;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.067;exitY=0.829;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-11" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-5">
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-10">
+          <mxGeometry x="60" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-16" value="new Thread(runnable).start()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.027;exitY=0.114;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-15" parent="H1Z_MDF-a9jx8XFVuI_Q-10" source="H1Z_MDF-a9jx8XFVuI_Q-11">
+          <mxGeometry x="-0.8387" y="9" relative="1" as="geometry">
+            <mxPoint x="69" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="94" y="159" />
+              <mxPoint x="94" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-12" value="run" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.089;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.067;exitY=0.829;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-11" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-5">
           <mxGeometry x="0.0598" y="-19" relative="1" as="geometry">
             <mxPoint x="180" y="201" as="sourcePoint" />
             <Array as="points">
@@ -235,6 +256,28 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-19" value="AutoSdkManagerHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+          <mxGeometry x="670" y="50" width="130" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-19">
+          <mxGeometry x="60" y="250" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-19">
+          <mxGeometry x="60" y="270" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-21" value="copyAutoSdkConfigs" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.144;exitY=0.107;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-20" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-23" value="makeSdkWritableDir" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-22" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-24" value="Condition:&lt;br&gt;updateStorageFiles" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+          <mxGeometry x="680" y="240" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
