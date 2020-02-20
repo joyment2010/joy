@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-20T09:44:40.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="WC0vLifjr4IzYkTL5kqn" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-20T09:46:30.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="-hSkhr74dpIpUzjeVcmL" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -290,13 +290,16 @@
             <mxPoint x="650" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-24" value="Condition:&lt;br&gt;updateStorageFiles" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-24" value="条件:&lt;br&gt;updateStorageFiles" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
           <mxGeometry x="680" y="240" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-26" value="parallelPhaseNotification.&lt;br&gt;signalPhaseComplete" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="H1Z_MDF-a9jx8XFVuI_Q-25" parent="ZBBEk2cNsRWv8i3ho4RV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="340" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-38" value="action为AutoSdkManager中&amp;nbsp;phase 0时，setBarrierAction传入的 runnable对象" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+          <mxGeometry x="400" y="390" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
