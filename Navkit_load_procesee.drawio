@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-21T11:58:25.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="feJJCAkPYJdSOUKGoWBv" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-21T12:37:02.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="yiKu-5WCPyNdRTNzeGXR" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ITVbMP8zfWYvRuNHPqF-" name="Page-2">
-    <mxGraphModel dx="788" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-0" />
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-1" parent="ZBBEk2cNsRWv8i3ho4RV-0" />
@@ -401,7 +401,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-49" value="condition.signalAll" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-42" target="H1Z_MDF-a9jx8XFVuI_Q-48" edge="1">
+        <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-49" value="&lt;pre style=&quot;background-color: rgb(38 , 50 , 56)&quot;&gt;&lt;font color=&quot;#c3cee3&quot; face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 12.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-42" target="H1Z_MDF-a9jx8XFVuI_Q-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="585" as="sourcePoint" />
           </mxGeometry>
@@ -428,6 +428,9 @@
         </mxCell>
         <mxCell id="HaYbZSLaa_kc4NTjI4cr-2" value="通过 listener.notifyInitStatus 把AutoSdkInitialization传给 AutoSdkManager,&lt;br&gt;1) 正常收到来自 JNI 的回调事件&lt;br&gt;2）JNI方法 initService 返回的status是 false&lt;br&gt;3）await超时&amp;nbsp;&lt;br&gt;在 2）和3）中，设置&amp;nbsp;InitStatus.Failed" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
           <mxGeometry x="730" y="430" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HaYbZSLaa_kc4NTjI4cr-5" value="notifyInitializationStatus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
+          <mxGeometry x="770" y="565" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
