@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-21T13:01:39.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="JnT7Wa5uhgft6lOC9fml" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-21T13:02:32.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="4Uf36YJ749-2cFZZlC43" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -457,7 +457,7 @@
         <mxCell id="HaYbZSLaa_kc4NTjI4cr-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="HaYbZSLaa_kc4NTjI4cr-12">
           <mxGeometry x="45" y="700" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HaYbZSLaa_kc4NTjI4cr-21" value="根据不同 AutoSdkInitialization 的条件判断，比如&lt;br&gt;InitStatus.Successful&amp;nbsp;&lt;br&gt;InitStatus.FullyDone" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="HaYbZSLaa_kc4NTjI4cr-12">
+        <mxCell id="HaYbZSLaa_kc4NTjI4cr-21" value="根据不同 AutoSdkInitialization 的条件判断，比如&lt;br&gt;InitStatus.Successful&amp;nbsp;&lt;br&gt;InitStatus.FullyDone&lt;br&gt;拿 sucessful 情况 来画图" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="HaYbZSLaa_kc4NTjI4cr-12">
           <mxGeometry x="-45" y="610" width="205" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HaYbZSLaa_kc4NTjI4cr-14" value="notifyInitEvent" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="HaYbZSLaa_kc4NTjI4cr-13" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-10">
