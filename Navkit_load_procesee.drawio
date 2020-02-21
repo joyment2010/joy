@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-21T13:12:56.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="l5s5IDW-J_Ymne512jtT" version="12.7.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-02-21T13:17:23.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="s-nv-2dUhEzLxHL8XH5R" version="12.7.2" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-0" />
         <mxCell id="ZBBEk2cNsRWv8i3ho4RV-1" parent="ZBBEk2cNsRWv8i3ho4RV-0" />
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-0" value="AutoSdkManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZBBEk2cNsRWv8i3ho4RV-1" vertex="1">
-          <mxGeometry x="110" y="50" width="100" height="650" as="geometry" />
+          <mxGeometry x="110" y="50" width="110" height="230" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="H1Z_MDF-a9jx8XFVuI_Q-0" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="110" as="geometry" />
@@ -184,9 +184,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-20" y="70" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="HaYbZSLaa_kc4NTjI4cr-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="H1Z_MDF-a9jx8XFVuI_Q-0">
-          <mxGeometry x="45" y="550" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="H1Z_MDF-a9jx8XFVuI_Q-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZBBEk2cNsRWv8i3ho4RV-1" vertex="1">
           <mxGeometry x="160" y="140" width="10" height="80" as="geometry" />
@@ -445,11 +442,6 @@
         </mxCell>
         <mxCell id="HaYbZSLaa_kc4NTjI4cr-5" value="notifyInitializationStatus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
           <mxGeometry x="770" y="565" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="HaYbZSLaa_kc4NTjI4cr-7" value="notifyNavKitInitStatus(AutoSdkInitialization)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=-0.233;exitY=0.168;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="HaYbZSLaa_kc4NTjI4cr-6" parent="ZBBEk2cNsRWv8i3ho4RV-1" source="H1Z_MDF-a9jx8XFVuI_Q-48">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="95" y="585" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="HaYbZSLaa_kc4NTjI4cr-12" value="MainApplication" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZBBEk2cNsRWv8i3ho4RV-1">
           <mxGeometry x="-100" y="50" width="180" height="850" as="geometry" />
